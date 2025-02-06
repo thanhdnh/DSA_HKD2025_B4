@@ -15,7 +15,7 @@
             return RecuSearch(arr, from+1, value);
     }
 
-    //Cài đặt SenSearch bằng đệ quy
+    //Bài tập 1: Cài đặt SenSearch bằng đệ quy
     static int SenSearch(int[] arr, int value){
         int x = arr[arr.Length-1];
         arr[arr.Length-1] = value; //Thêm phần tử cần tìm vào cuối mang - sentinel
@@ -29,7 +29,7 @@
             return -1;
     }
 
-    //Cài đặt BinSearch bằng đệ quy
+    //Bài tập 2: Cài đặt BinSearch bằng đệ quy
     static int BinSearch(int[] sarr, int value){
         int L = 0, R = sarr.Length-1;
         while(L<=R){
